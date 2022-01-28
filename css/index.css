@@ -176,6 +176,49 @@ footer {
   padding-bottom: 4%;
 }
 
+/*nav bar and header styles*/
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: justify;
+  padding: 2%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: black;
+}
+
+.logo {
+  width: 35%;
+}
+
+.logo img {
+  width: 60%;
+}
+
+.header-img {
+  display: flex;
+  background-image: url("../img/jumbo.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 17vh;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 1%;
+  justify-content: center;
+  /* align-items: center; */
+}
+
 /*Middle Section Styles*/
 .middle-content {
   margin-bottom: 4%;
