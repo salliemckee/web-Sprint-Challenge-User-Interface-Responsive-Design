@@ -216,7 +216,7 @@ nav {
   height: 17vh;
   width: 100%;
   flex-wrap: wrap;
-  /* margin: 0 1%; */
+
   justify-content: center;
 }
 
@@ -362,5 +362,93 @@ footer nav a {
 }
 
 /*About Page Styles*/
+.container-about-page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-img {
+  display: flex;
+  background-image: url("../img/jumbo-about.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 17vh;
+  width: 100%;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.about-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  border-bottom: 2px solid #ff4b00;
+}
+
+.middle-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.paragraphs1,
+.paragraphs2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 2%;
+}
+
+.paragraphs1 p,
+.paragraphs2 p {
+  border-bottom: 2px solid #ff4b00;
+  padding-bottom: 1%;
+}
+.middle-section h2 {
+  padding: 2% 0;
+}
+
+.bottom-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2%;
+  width: 80%;
+}
 
 /*Responsive Styles*/
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 10px;
+  }
+  .links a {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+
+  .header-img {
+    width: 100%;
+    height: 20vh;
+  }
+
+  .top-content {
+    display: flex;
+    flex-direction: column;
+    width: 80vh;
+  }
+}
