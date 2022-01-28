@@ -154,10 +154,10 @@ section,
 footer {
   padding: 4% 0;
 }
-/* .container {
-    width: 80%;
-    margin: 0 auto;
-} */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 
 /*Top Section Styles*/
 
@@ -183,6 +183,8 @@ nav {
   width: 100%;
   text-align: justify;
   padding: 2%;
+  margin: 2% 1%;
+  padding-top: 2%;
 }
 
 .links {
@@ -210,28 +212,47 @@ nav {
   background-image: url("../img/jumbo.jpg");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   height: 17vh;
   width: 100%;
   flex-wrap: wrap;
-  margin: 0 1%;
+  /* margin: 0 1%; */
   justify-content: center;
-  /* align-items: center; */
 }
 
 /*Middle Section Styles*/
 .middle-content {
   margin-bottom: 4%;
+  border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
   margin-bottom: 0;
+  margin-left: 3%;
 }
 
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 3%;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box-sub {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
 }
 
 .middle-content .boxes .box {
@@ -239,14 +260,85 @@ nav {
   margin: 4% 0;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
+.box1 {
+  background-color: teal;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box2 {
+  background-color: gold;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box3 {
+  background-color: cadetblue;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box4 {
+  background-color: coral;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box5 {
+  background-color: crimson;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box6 {
+  background-color: forestgreen;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box7 {
+  background-color: darkorchid;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box8 {
+  background-color: hotpink;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box9 {
+  background-color: indigo;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
+
+.box10 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 4%;
+  margin: 2%;
+}
 /*Bottom Section Styles*/
 .bottom-content {
   display: flex;
   justify-content: space-between;
+  margin: 4%;
 }
 
 .bottom-content .text-container {
@@ -261,6 +353,12 @@ nav {
 footer {
   width: 100%;
   background-color: #ff4b00;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: white;
 }
 
 /*About Page Styles*/
