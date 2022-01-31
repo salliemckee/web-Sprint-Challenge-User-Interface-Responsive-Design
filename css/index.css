@@ -165,7 +165,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   border-bottom: 2px solid #ff4b00;
   text-align: justify;
 }
@@ -173,7 +173,7 @@ footer {
 .top-content .text-container {
   width: 35%;
   padding: 0 1%;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
 }
 
 /*nav bar and header styles*/
@@ -187,24 +187,17 @@ nav {
   padding-top: 2%;
 }
 
-.links {
+nav a {
   display: flex;
   justify-content: space-evenly;
   width: 60%;
-}
-
-.links a {
   text-decoration: none;
   font-size: 1.9rem;
   color: black;
 }
 
-.logo {
+#logo {
   width: 35%;
-}
-
-.logo img {
-  width: 60%;
 }
 
 .header-img {
@@ -226,26 +219,13 @@ nav {
   border-bottom: 2px solid #ff4b00;
 }
 
-.middle-content h2 {
-  margin-bottom: 0;
-  margin-left: 3%;
-}
-
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-direction: row;
-  margin: 3%;
 }
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
 .box-sub {
   display: flex;
   flex-wrap: wrap;
@@ -255,90 +235,69 @@ nav {
   width: 100%;
 }
 
-.middle-content .boxes .box {
-  background: black;
-  margin: 4% 0;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.box1 {
+#box1 {
   background-color: teal;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box2 {
+#box2 {
   background-color: gold;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box3 {
+#box3 {
   background-color: cadetblue;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box4 {
+#box4 {
   background-color: coral;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box5 {
+#box5 {
   background-color: crimson;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box6 {
+#box6 {
   background-color: forestgreen;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box7 {
+#box7 {
   background-color: darkorchid;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box8 {
+#box8 {
   background-color: hotpink;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box9 {
+#box9 {
   background-color: indigo;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 
-.box10 {
+#box10 {
   background-color: dodgerblue;
   color: white;
   padding: 4%;
-  margin: 2%;
 }
 /*Bottom Section Styles*/
 .bottom-content {
   display: flex;
   justify-content: space-between;
-  margin: 4%;
 }
 
 .bottom-content .text-container {
@@ -380,7 +339,7 @@ footer nav a {
   justify-content: center;
 }
 
-.about-div {
+.about-section {
   display: flex;
   flex-wrap: wrap;
   padding: 2%;
@@ -393,6 +352,7 @@ footer nav a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  margin: 0 auto;
 }
 
 .paragraphs1,
@@ -409,7 +369,7 @@ footer nav a {
   padding-bottom: 1%;
 }
 .middle-section h2 {
-  padding: 2% 0;
+  padding: 2%;
 }
 
 .bottom-paragraph {
@@ -428,7 +388,7 @@ footer nav a {
     justify-content: center;
     align-items: center;
   }
-  .logo {
+  #logo {
     display: flex;
     width: 60%;
     justify-content: center;
